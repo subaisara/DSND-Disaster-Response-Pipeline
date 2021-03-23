@@ -41,3 +41,6 @@ File `models/train_classifier.py` contains machine learning pipeline that:
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+
+### Software Requirements
+This project requires Python3.
