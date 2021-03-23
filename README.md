@@ -22,10 +22,10 @@ There are three main components in this project:
 
 1. ETL Pipeline
 File data/process_data.py contains data cleaning pipeline that:
-- Loads the messages and categories dataset
-- Merges the two datasets
-- Cleans the data
-- Stores it in a SQLite database
+    - Loads the messages and categories dataset
+    - Merges the two datasets
+    - Cleans the data
+    - Stores it in a SQLite database
 
 2. ML Pipeline
 File models/train_classifier.py contains machine learning pipeline that:
