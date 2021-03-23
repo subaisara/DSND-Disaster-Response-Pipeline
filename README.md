@@ -9,7 +9,7 @@ I  used Data Engineering skills to analyze disaster data. The classifier model i
 ### Project Components
 There are three main components in this project:
 
-1. ETL Pipeline
+1. ETL Pipeline <\br> </br> <br/>
 File `data/process_data.py` contains data cleaning pipeline that:
     - Loads the messages and categories dataset
     - Merges the two datasets
