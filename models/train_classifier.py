@@ -21,6 +21,11 @@ import warnings
 warnings.filterwarnings('ignore')
 
 def load_data(database_filepath):
+    """
+        Load datasets:
+        Load messages.csv into a dataframe and inspect the first few lines.
+        Load categories.csv into a dataframe and inspect the first few lines.
+    """
     engine = create_engine('sqlite:///{}'.format(database_filepath))
     df = pd.read_sql_table('categorizedMessages', con = engine)
     X = df['message']
