@@ -21,7 +21,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 def load_data(database_filepath):
-    """
+    """ 
         Load datasets:
         Load messages.csv into a dataframe and inspect the first few lines.
         Load categories.csv into a dataframe and inspect the first few lines.
